@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Nombre de la App</string>
+    <string name="txt_texto1">Pantalla1</string>
+    <string name="button">Boton</string>
+</resources>

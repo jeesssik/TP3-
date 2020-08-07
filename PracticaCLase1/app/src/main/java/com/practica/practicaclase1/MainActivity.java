@@ -2,6 +2,7 @@
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -21,6 +22,9 @@ import android.widget.Toast;
             public void onClick(View view){
                 //que hago cuando aprieto en boton
                 Toast.makeText(getApplicationContext(),"Test de App",Toast.LENGTH_LONG).show();
+                //ahora para que el boton vaya a la segunda activity
+                Intent intent = new Intent(getApplicationContext(), SegundaActividad.class);   // de donde, hacia donde va, los dos parametros son obligatorios
+                startActivity(intent);
 
             }
         });
